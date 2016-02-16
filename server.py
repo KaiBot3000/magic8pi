@@ -19,13 +19,22 @@ class Magic(Resource):
     def get(self, language="english"):
         """Given a language (english is default), returns random reply"""
 
-        reply = random.choice(replies[language])
-        return {"reply": reply}
+        if language in replies.keys():
+            reply = random.choice(replies[language])
+            return {"reply": reply}
+        else:
+            error_code = {"code" : 1234,
+                          "message" : "Language not available",
+                          "description" : "You've chosen an unsupported language." +
+                            " Please check '/languages' for a list of supported languages"
+                        }
+            return error_code  
+
 
 class Language(Resource):
     def get(self):
         """Returns a list of available languages"""
-        
+
         languages = replies.keys()
         return {"languages": languages}
 
