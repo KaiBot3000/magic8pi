@@ -11,16 +11,15 @@ replies = {
 }
 
 class Magic(Resource):
-    def get(self, language):
 
-        if not language:
-            language = "english"
+    def get(self, language="english"):
 
         reply = random.choice(replies[language])
         return {"reply": reply}
 
 
-api.add_resource(Magic, "/<string:language>")
+api.add_resource(Magic, "/", "/<string:language>")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
