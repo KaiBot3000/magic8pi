@@ -1,0 +1,40 @@
+magic 8 ball api
+
+### MVP
+    returns english fortune
+    includes versioning in URL
+
+### Features
+    specify language
+        find top common languages in US, use those (write that up)
+        Also, cat and dog
+    optimism level?
+    nice error handling for unknown languages, etc   
+        {
+          "code" : 1234,
+          "message" : "Something bad happened :(",
+          "description" : "More details about the error here"
+        }
+    link to cute hand-drawn image of ball
+
+### App that uses api!
+    User types in short question
+    Gets fortune
+
+    Server saves questions
+    Generate d3 wordcloud from input
+    Create markov questions from saved questions <3 <3 <3
+    tweet them. Just because.
+
+
+
+### Noteground
+
+kaidalgleish.io/api/me
+-> returns resume info
+
+kaidalgleish.io/api/magic8/
+returns fortune
+
+kaidalgleish.io/api/magic8/spanish
+returns spanish fortune
