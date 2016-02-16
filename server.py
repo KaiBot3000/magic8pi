@@ -8,7 +8,7 @@ api = Api(app)
 replies = {
     "english": ["yes", "no", "I think so"],
     "spanish": ["si", "no", "creo que si"],
-    "cat": ["purrrfectly possible", "hiss no", "mouse certainly"],
+    "cat": ["purrrfectly possible", "hiss no", "mouse-t certainly"],
     "french": ["a chaque jour suffit sa peine", "non", "c'est kif-kif et bourricot",
                 "ce ne sont pas vos oignons", "la mort du petit cheval",
                 "qui vivra, verra", "sans l'ombre d'un doute",
@@ -21,14 +21,15 @@ class Magic(Resource):
 
         if language in replies.keys():
             reply = random.choice(replies[language])
-            return {"reply": reply}
+            return {"code": 200,
+                    "reply": reply}
         else:
-            error_code = {"code" : 1234,
+            error_code = {"code" : 417,
                           "message" : "Language not available",
                           "description" : "You've chosen an unsupported language." +
                             " Please check '/languages' for a list of supported languages"
                         }
-            return error_code  
+            return error_code
 
 
 class Language(Resource):
@@ -36,7 +37,8 @@ class Language(Resource):
         """Returns a list of available languages"""
 
         languages = replies.keys()
-        return {"languages": languages}
+        return {"code": 200,
+                "languages": languages}
 
 
 
