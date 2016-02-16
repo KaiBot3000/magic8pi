@@ -5,15 +5,15 @@ import random
 app = Flask(__name__)
 api = Api(app)
 
-fortunes = {
+replies = {
     "english": ["yes", "no", "I think so"],
     # "spanish": ["si", "no", "creo que si"]
 }
 
 class Magic(Resource):
     def get(self):
-        fortune = random.choice(fortunes["english"])
-        return {"fortune": fortune}
+        reply = random.choice(replies["english"])
+        return {"reply": reply}
 
 api.add_resource(Magic, "/")
 
