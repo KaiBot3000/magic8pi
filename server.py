@@ -23,8 +23,7 @@ class Magic(Resource):
 
         if language in replies.keys():
             reply = random.choice(replies[language])
-            return {"status": 200,
-                    "reply": reply}
+            return {"reply": reply}
         else:
             abort(417, message="Language not available")
 
@@ -34,8 +33,7 @@ class Language(Resource):
         """Returns a list of available languages"""
 
         languages = replies.keys()
-        return {"status": 200,
-                "languages": languages}
+        return {"languages": languages}
 
 
 api.add_resource(Magic, "/magic8pi/v1/", "/magic8pi/v1/<string:language>")
