@@ -5,6 +5,7 @@ import random
 app = Flask(__name__)
 api = Api(app)
 
+
 replies = {
     "english": ["yes", "no", "I think so", "try a different approach", "ask again"],
     "spanish": ["si", "no", "creo que si", "tal vez", "eso espero", "pregunta de nuevo"],
@@ -40,8 +41,8 @@ class Language(Resource):
                 "languages": languages}
 
 
-api.add_resource(Magic, "/api/v1/", "/api/v1/<string:language>")
-api.add_resource(Language, "/api/v1/languages")
+api.add_resource(Magic, "/magic8pi/v1/", "/magic8pi/v1/<string:language>")
+api.add_resource(Language, "/magic8pi/v1/languages")
 
 
 if __name__ == "__main__":

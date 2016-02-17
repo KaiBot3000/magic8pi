@@ -1,21 +1,21 @@
 magic 8 ball api
 
 ### MVP
-    returns english fortune
-    includes versioning in URL
+    x returns english fortune
+    x includes versioning in URL
 
 ### Features
-    specify language
-        find top common languages in US, use those (write that up)
-        Also, cat and dog
-    optimism level?
-    nice error handling for unknown languages, etc   
+    x specify language
+       O find top common languages in US, use those (write that up)
+       x Also, cat and dog
+    O optimism level?
+    x nice error handling for unknown languages, etc   
         {
           "code" : 1234,
           "message" : "Something bad happened :(",
           "description" : "More details about the error here"
         }
-    link to cute hand-drawn image of ball
+    O link to cute hand-drawn image of ball
 
 ### App that uses api!
     User types in short question
