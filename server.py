@@ -42,8 +42,8 @@ class Language(Resource):
                 "languages": languages}
 
 
-api.add_resource(Magic, "/", "/<string:language>")
-api.add_resource(Language, "/languages")
+api.add_resource(Magic, "/api/v1/", "/api/v1/<string:language>")
+api.add_resource(Language, "/api/v1/languages")
 
 
 if __name__ == "__main__":
