@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, abort
 import random
 
 app = Flask(__name__)
@@ -26,10 +26,7 @@ class Magic(Resource):
             return {"status": 200,
                     "reply": reply}
         else:
-            error_code = {"status" : 417,
-                          "message" : "Language not available"
-                        }
-            return error_code
+            abort(417, message="Language not available")
 
 
 class Language(Resource):
