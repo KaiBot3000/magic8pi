@@ -3,6 +3,15 @@
 
 Magic8PI brings the power of a magic 8 ball to the web! A simple GET request returns a JSON-formatted prediction.
 
+# Table of Contents
+1. [Version](https://github.com/KaiDalgleish/magic8pi#Version)
+2. [Base URL](https://github.com/KaiDalgleish/magic8pi#Base URL)
+3. [Endpoints](https://github.com/KaiDalgleish/magic8pi#Endpoints)
+4. [Errors](https://github.com/KaiDalgleish/magic8pi#Errors)
+5. [Quickstart](https://github.com/KaiDalgleish/magic8pi#Quickstart)
+6. [TODOs](https://github.com/KaiDalgleish/magic8pi#TODOs)
+
+
 ### Version
 v1.0
 
