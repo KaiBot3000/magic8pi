@@ -22,13 +22,11 @@ class Magic(Resource):
 
         if language in replies.keys():
             reply = random.choice(replies[language])
-            return {"code": 200,
+            return {"status": 200,
                     "reply": reply}
         else:
-            error_code = {"code" : 417,
-                          "message" : "Language not available",
-                          "description" : "You've chosen an unsupported language." +
-                            " Please check '/languages' for a list of supported languages"
+            error_code = {"status" : 417,
+                          "message" : "Language not available"
                         }
             return error_code
 
@@ -38,7 +36,7 @@ class Language(Resource):
         """Returns a list of available languages"""
 
         languages = replies.keys()
-        return {"code": 200,
+        return {"status": 200,
                 "languages": languages}
 
 
