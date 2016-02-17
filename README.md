@@ -22,7 +22,7 @@ v1.0
 ### Base URL
 "**/magic8pi/v1/**"
 
-- Versioning within the URL allows for continued development without breaking apps which use the API.
+    > Versioning within the URL allows for continued development without breaking apps which use the API.
 
 ### Endpoints
 
