@@ -25,7 +25,7 @@ class Magic(Resource):
             reply = random.choice(replies[language])
             return {"reply": reply}
         else:
-            abort(417, message="Language not available")
+            abort(400, message="Language not available")
 
 
 class Language(Resource):
