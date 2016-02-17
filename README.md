@@ -21,11 +21,9 @@ v1.0
 
 ### Base URL
 "**/magic8pi/v1/**"
+  
+> Versioning within the URL allows for continued API development without breaking apps which rely on consistent responses.  
 
-    >
-    > Versioning within the URL allows for continued development without breaking apps which use the API.
-    >
-    
 ### Endpoints
 
 * "**/**" : Returns a single reply in English, the default language
