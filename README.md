@@ -1,4 +1,4 @@
-->![Magic8Ball](https://github.com/KaiDalgleish/magic8pi/blob/master/magic8ball.png)<-
+<p align=center>![Magic8Ball](https://github.com/KaiDalgleish/magic8pi/blob/master/magic8ball.png)</p>
 
 ## Magic8PI
 
