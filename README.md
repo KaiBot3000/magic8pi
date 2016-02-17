@@ -1,4 +1,4 @@
-[Magic8Ball]: https://github.com/kaidalgleish/magic8pi/magic8ball
+[Magic8Ball]: https://github.com/kaidalgleish/magic8pi/magic8ball.png
 ## Magic8PI
 
 Magic8PI brings the power of a magic 8 ball to the web! A simple GET request returns a JSON-formatted prediction.
