@@ -27,15 +27,18 @@ v1.0
 ### Endpoints
 
 * "**/**" : Returns a single reply in English, the default language
+
     >{
     >    "reply": "I think so"
     >}
 
 * "**/[language]**" : Returns a single reply in [language]
+
     >{
     >    "reply": "mouse-t certainly"
     >}
 * "**/languages**" : Returns a list of available languages
+
     >{
     >    "languages": [
     >         "cat", 
