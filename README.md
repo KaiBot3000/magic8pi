@@ -11,9 +11,9 @@ v1.0
 * [Flask-RESTful] - Framework for creating REST APIs
 
 ### Base URL
-/magic8pi/v1/
+"**/magic8pi/v1/**"
 
-* Versioning within the URL allows for continued development without breaking apps which use the API.
+- Versioning within the URL allows for continued development without breaking apps which use the API.
 
 ### Endpoints
 
@@ -35,6 +35,7 @@ v1.0
     >         "english"
     >     ]
     > }
+
 ### Errors
 If you request a reply in an unavailable language...
 ```sh
