@@ -1,6 +1,5 @@
 <p align=center><img src="https://github.com/KaiDalgleish/magic8pi/blob/master/magic8ball.png"></p>
 
-## Magic8PI
 
 Magic8PI brings the power of a magic 8 ball to the web! A simple GET request returns a JSON-formatted prediction.
 
