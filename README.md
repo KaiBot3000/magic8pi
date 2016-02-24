@@ -1,16 +1,21 @@
 <p align=center><img src="https://github.com/KaiDalgleish/magic8pi/blob/master/magic8ball.png"></p>
 
 
-## Magic8PI brings the power of a magic 8 ball to the web! This API is deployed on my [personal site](http://www.kaidalgleish.io)
+## Magic8PI brings the power of a magic 8 ball to the web!
 
 ### Table of Contents
-1. [Version](https://github.com/KaiDalgleish/magic8pi#version)
-2. [Base URL](https://github.com/KaiDalgleish/magic8pi#base-url)
-3. [Endpoints](https://github.com/KaiDalgleish/magic8pi#endpoints)
-4. [Errors](https://github.com/KaiDalgleish/magic8pi#errors)
-5. [Quickstart](https://github.com/KaiDalgleish/magic8pi#quickstart)
-6. [TODOs](https://github.com/KaiDalgleish/magic8pi#todos)
+[Location](https://github.com/KaiDalgleish/magic8pi#location)
+[Version](https://github.com/KaiDalgleish/magic8pi#version)
+[Base URL](https://github.com/KaiDalgleish/magic8pi#base-url)
+[Endpoints](https://github.com/KaiDalgleish/magic8pi#endpoints)
+[Errors](https://github.com/KaiDalgleish/magic8pi#errors)
+[Quickstart](https://github.com/KaiDalgleish/magic8pi#quickstart)
+[Run Magic8PI Locally](https://github.com/KaiDalgleish/magic8pi#Run-Magic8PI-Locally)
+[TODOs](https://github.com/KaiDalgleish/magic8pi#todos)
 
+
+### Location
+This API is deployed on my [personal site](http://www.kaidalgleish.io)
 
 ### Version
 v1.0
@@ -96,7 +101,7 @@ $ curl http://localhost:5000/magic8pi/v1/cat
 ```
 
 ### TODOs
-* Deploy on kaidalgleish.io
+X Deploy on kaidalgleish.io
 * Return link to image of ball reply
 * Authenticate users
 * Rate limit users
