@@ -20,7 +20,7 @@ v1.0
 * [Flask-RESTful] - Framework for creating REST APIs
 
 ### Base URL
-"**/magic8pi/v1/**"
+"**http://www.kaidalgleish.io/magic8pi/v1/**"
   
 > Versioning within the URL allows for continued API development without breaking apps which rely on consistent responses.  
 
@@ -49,9 +49,10 @@ v1.0
     > }
 
 ### Errors
+
 If you request a reply in an unavailable language...
 ```sh
-$ curl http://localhost:5000/magic8pi/v1/tagalog
+$ curl hhttp://www.kaidalgleish.io/magic8pi/v1/tagalog
 ```
 
 ...you'll receive a 400: Bad Request error.
@@ -63,7 +64,14 @@ $ curl http://localhost:5000/magic8pi/v1/tagalog
 ```
 
 ### Quickstart
+Think very hard about your question, and...
+...visit an endpoint using your browser to see a prediction!
+[http://www.kaidalgleish.io/magic8pi/v1/cat](http://www.kaidalgleish.io/magic8pi/v1/cat)
 
+Or, get a list of the currently supported languages:
+[http://www.kaidalgleish.io/magic8pi/v1/languages](http://www.kaidalgleish.io/magic8pi/v1/languages)
+
+### Run Magic8PI Locally
 Clone repo:
 ```sh
 $ git clone https://github.com/KaiDalgleish/magic8pi.git magic8pi
