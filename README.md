@@ -1,17 +1,17 @@
 <p align=center><img src="https://github.com/KaiDalgleish/magic8pi/blob/master/magic8ball.png"></p>
 
 
-## Magic8PI brings the power of a magic 8 ball to the web!
+## Magic8PI brings the power of a Magic 8 Ball to the web!
 
 ### Table of Contents
-[Location](https://github.com/KaiDalgleish/magic8pi#location)
-[Version](https://github.com/KaiDalgleish/magic8pi#version)
-[Base URL](https://github.com/KaiDalgleish/magic8pi#base-url)
-[Endpoints](https://github.com/KaiDalgleish/magic8pi#endpoints)
-[Errors](https://github.com/KaiDalgleish/magic8pi#errors)
-[Quickstart](https://github.com/KaiDalgleish/magic8pi#quickstart)
-[Run Magic8PI Locally](https://github.com/KaiDalgleish/magic8pi#Run-Magic8PI-Locally)
-[TODOs](https://github.com/KaiDalgleish/magic8pi#todos)
+- [Location](https://github.com/KaiDalgleish/magic8pi#location)
+- [Version](https://github.com/KaiDalgleish/magic8pi#version)
+- [Base URL](https://github.com/KaiDalgleish/magic8pi#base-url)
+- [Endpoints](https://github.com/KaiDalgleish/magic8pi#endpoints)
+- [Errors](https://github.com/KaiDalgleish/magic8pi#errors)
+- [Quickstart](https://github.com/KaiDalgleish/magic8pi#quickstart)
+- [Run Magic8PI Locally](https://github.com/KaiDalgleish/magic8pi#run-magic8pi-locally)
+- [TODOs](https://github.com/KaiDalgleish/magic8pi#todos)
 
 
 ### Location
