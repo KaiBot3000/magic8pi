@@ -101,11 +101,11 @@ $ curl http://localhost:5000/magic8pi/v1/cat
 ```
 
 ### TODOs
-X Deploy on kaidalgleish.io
-* Return link to image of ball reply
-* Authenticate users
-* Rate limit users
-* Allow users to add custom messages
+[x] Deploy on kaidalgleish.io
+[ ] Return link to image of ball reply
+[ ] Authenticate users
+[ ] Rate limit users
+[ ] Allow users to add custom messages
 
 
 [Flask]: http://flask.pocoo.org/
